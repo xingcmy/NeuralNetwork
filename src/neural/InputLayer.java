@@ -2,9 +2,7 @@ package neural;
 
 import java.util.ArrayList;
 
-public class InputLayer {
-
-    private ArrayList<Neuron> listOfNeurons;
+public class InputLayer extends Layer {
 
     public InputLayer initLayer(InputLayer inputLayer){
         return null;
@@ -14,11 +12,4 @@ public class InputLayer {
 
     public void setNumberOfNeuronsInLayer(int numberOfNeuronsInLayer){}
 
-    public ArrayList<Neuron> getListOfNeurons() {
-        return listOfNeurons;
-    }
-
-    public void setListOfNeurons(ArrayList<Neuron> listOfNeurons) {
-        this.listOfNeurons = listOfNeurons;
-    }
 }

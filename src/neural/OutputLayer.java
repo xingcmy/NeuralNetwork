@@ -1,6 +1,6 @@
 package neural;
 
-public class OutputLayer {
+public class OutputLayer extends Layer {
 
     public OutputLayer initLayer(OutputLayer outputLayer){
         return null;
