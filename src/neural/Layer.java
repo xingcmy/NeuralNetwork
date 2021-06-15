@@ -4,19 +4,19 @@ import java.util.ArrayList;
 
 public class Layer {
 
-    private ArrayList<Neuron> listOfNeuron;  //
+    private ArrayList<Neuron> listOfNeurons;  //
     private int numberOfNeuronsInLayer; //神经元数量
 
-    public ArrayList<Neuron> getListOfNeuron() {
-        return listOfNeuron;
+    public ArrayList<Neuron> getListOfNeurons() {
+        return listOfNeurons;
     }
 
     public int getNumberOfNeuronsInLayer() {
         return numberOfNeuronsInLayer;
     }
 
-    public void setListOfNeuron(ArrayList<Neuron> listOfNeuron) {
-        this.listOfNeuron = listOfNeuron;
+    public void setListOfNeurons(ArrayList<Neuron> listOfNeurons) {
+        this.listOfNeurons = listOfNeurons;
     }
 
     public void setNumberOfNeuronsInLayer(int numberOfNeuronsInLayer) {
